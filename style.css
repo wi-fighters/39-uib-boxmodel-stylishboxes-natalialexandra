@@ -1,12 +1,28 @@
 .fake-box {
     position: relative;
+    width: 15rem;
+    /* height: 30%; */
+    border: 1px solid #000;
 }
 
 .fake-box:before, .fake-box:after {
     position: absolute;
+    border: 1px solid #000;
 }
 
 .fake-box:after {
     left: 20px;
     top: 20px;
+    border: 1px solid #000;
+}
+
+/* task 2 */
+.info-box {
+    display: inline-block;
+    width: 30%;
+    margin: 1rem;
+    border: 1px solid #000;
+    box-shadow: 7px 7px 11px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 11px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 11px 1px rgba(0,0,0,0.75);
 }
